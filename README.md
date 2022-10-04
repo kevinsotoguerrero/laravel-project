@@ -1,21 +1,21 @@
 ## Instalación
 
-`sudo apt install php8.1-cli php8.1-curl php8.1-mysqlnd php8.1-gd php8.1-opcache php8.1-zip php8.1-intl php8.1-common php8.1-bcmath php8.1-imap php8.1-imagick php8.1-xmlrpc php8.1-readline php8.1-memcached php8.1-redis php8.1-mbstring php8.1-apcu php8.1-xml php8.1-dom php8.1-redis php8.1-memcached php8.1-memcache` para instalar las dependencia de php en linux<br>
-`composer create-project --prefer-dist laravel/laravel nombre-app` para crear el proyecto de laravel<br>
-`composer require barryvdh/laravel-debugbar --dev` instalacion del debuger, desactivacion en .env<br>
+`sudo apt install php8.1-cli php8.1-curl php8.1-mysqlnd php8.1-gd php8.1-opcache php8.1-zip php8.1-intl php8.1-common php8.1-bcmath php8.1-imap php8.1-imagick php8.1-xmlrpc php8.1-readline php8.1-memcached php8.1-redis php8.1-mbstring php8.1-apcu php8.1-xml php8.1-dom php8.1-redis php8.1-memcached php8.1-memcache` para instalar las dependencia de php en linux.
+`composer create-project --prefer-dist laravel/laravel nombre-app` para crear el proyecto de laravel.
+`composer require barryvdh/laravel-debugbar --dev` instalacion del debuger, desactivacion en .env.
 
 ## Ejecución
 
-`php artisan serve` ejecucion localhost<br>
-`php -S 127.0.0.1:8001` en la carpeta public, otra forma para correr en localhost especificando el puerto<br>
+`php artisan serve` ejecucion localhost.
+`php -S 127.0.0.1:8001` en la carpeta public, otra forma para correr en localhost especificando el puerto.
 
 ## Información general
 
-- Artisan: gestor de linea de comandos de laravel, ayuda al desarrollo<br>
-- Model: es una clase o archivo que hace referencia a una tabla<br>
-- Controller: gestiona solicitudes de los usuarios<br>
-- .blade: es el motor de plantillas de laravel, el que permite escribir de forma limpia en las vistas<br>
-- Eloquent permite administrar de forma facil las bases de datos<br>
+- Artisan: gestor de linea de comandos de laravel, ayuda al desarrollo.
+- Model: es una clase o archivo que hace referencia a una tabla.
+- Controller: gestiona solicitudes de los usuarios.
+- .blade: es el motor de plantillas de laravel, el que permite escribir de forma limpia en las vistas.
+- Eloquent permite administrar de forma facil las bases de datos.
 
 
 ## About Laravel
