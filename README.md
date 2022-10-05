@@ -7,6 +7,7 @@
 ## Ejecución
 
 `php artisan serve` ejecucion localhost<br>
+`npm run dev` ejecucion paquetes npm estilos<br>
 `php -S 127.0.0.1:8001` en la carpeta public, otra forma para correr en localhost especificando el puerto<br>
 
 ## Información general
